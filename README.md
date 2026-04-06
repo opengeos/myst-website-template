@@ -76,6 +76,8 @@ The built site will be in `_build/html/`.
 
 Pushes to `main` automatically trigger the `deploy.yml` workflow, which builds the HTML site and deploys to GitHub Pages.
 
+By default, `BASE_URL` is set to `/<repo-name>` so that asset paths work correctly when served at `username.github.io/repo-name/`. If you configure a custom domain (via `CNAME`), remove the `BASE_URL` environment variable from `deploy.yml` since the site will be served from the root.
+
 ### Netlify (PR previews)
 
 Pull requests trigger the `build.yml` workflow, which builds a preview and posts the URL as a PR comment. Requires `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID` secrets.

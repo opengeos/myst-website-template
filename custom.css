@@ -19,6 +19,11 @@ table th:first-child {
 
 #featured-projects + .myst-grid .myst-card-footer,
 #featured-projects + .myst-grid .myst-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
   text-align: center !important;
   white-space: nowrap;
 }

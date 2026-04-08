@@ -1,15 +1,15 @@
 version: 1
 project:
   title: Website Title
-  authors:
-    - name: Author Name
+  # authors:
+  #   - name: Author Name
   copyright: '2026'
   exclude:
     - _build
     - Thumbs.db
     - .DS_Store
     - '**.ipynb_checkpoints'
-  github: username/book-template
+  github: opengeos/myst-website-template
   # thebe:
   #   binder:
   #     repo: username/book-template
@@ -36,7 +36,7 @@ site:
     logo_dark: logo.png
     favicon: fav.ico
     folders: true
-    # style: custom.css
+    style: custom.css
     # analytics_google: G-XXX
   template: book-theme
   parts:

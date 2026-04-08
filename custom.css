@@ -1,0 +1,34 @@
+.myst-fm-downloads-dropdown {
+  display: none !important;
+}
+
+table td:first-child,
+table th:first-child {
+  white-space: nowrap;
+}
+
+#giscus-comments {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.giscus,
+.giscus-frame {
+  width: 100% !important;
+}
+
+#featured-projects + .myst-grid .myst-card-footer,
+#featured-projects + .myst-grid .myst-card-title {
+  text-align: center !important;
+  white-space: nowrap;
+}
+
+#featured-projects + .myst-grid .myst-card-footer > *,
+#featured-projects + .myst-grid .myst-card-title > * {
+  text-align: center !important;
+}
+
+#featured-projects + .myst-grid .myst-card-footer p,
+#featured-projects + .myst-grid .myst-card-footer strong {
+  margin: 0 auto;
+}

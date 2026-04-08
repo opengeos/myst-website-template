@@ -37,6 +37,25 @@ Describe the setup steps here.
 A sample bar chart showing values for five categories.
 ```
 
+## Sample Dropdown
+
+:::{dropdown} 2025
+:open:
+
+- Item 1
+- Item 2
+- Item 3
+
+:::
+
+:::{dropdown} 2024
+
+- Item 1
+- Item 2
+- Item 3
+
+:::
+
 ## Running the Example
 
 ```{code-cell} ipython3

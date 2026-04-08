@@ -1,32 +1,46 @@
-# Website Title
+---
+title: Website Title
+subtitle: Subtitle of the book
+---
 
 ## Introduction
 
 Welcome to the official repository for _**Website Title**_. This repository contains all the code examples featured in the book.
 
-## About This Book
+---
 
-Describe your book here.
+## Featured Projects
 
-## Table of Contents
+::::{grid} 2 2 4 4
 
-### Preface
+:::{card}
+:link: https://mystmd.org
+![mystmd](book/images/myst.webp)
++++
+**MyST Markdown**
+:::
 
-- [Preface](book/preface.md)
+:::{card}
+:link: https://jupyterbook.org
+![jupyter-book](book/images/jupyter-book.webp)
++++
+**Jupyter Book**
+:::
 
-### Part I: Getting Started
+:::{card}
+:link: https://jupyter.org
+![jupyter](book/images/jupyter.webp)
++++
+**Jupyter**
+:::
 
-1. [Getting Started](book/part01/getting-started.md)
-2. [Installation](book/part01/installation.md)
+:::{card}
+:link: https://python.org
+![python](book/images/python.webp)
++++
+**Python**
+:::
 
-### Part II: Examples
+::::
 
-3. [First Example](book/part02/first-example.md)
-
-## About the Author
-
-Add author information here.
-
-## Licensing and Copyright
-
-Add licensing information here.
+---

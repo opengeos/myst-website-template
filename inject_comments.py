@@ -87,9 +87,9 @@ GISCUS_SNIPPET = """
     var s = document.createElement('script');
     s.src = 'https://giscus.app/client.js';
     s.setAttribute('data-repo', 'opengeos/myst-website-template');           // TODO: Update
-    s.setAttribute('data-repo-id', 'REPLACE_WITH_REPO_ID');         // TODO: Update
+    s.setAttribute('data-repo-id', 'R_kgDOR7iU5w');         // TODO: Update
     s.setAttribute('data-category', 'General');              // TODO: Update
-    s.setAttribute('data-category-id', 'REPLACE_WITH_CATEGORY_ID');   // TODO: Update
+    s.setAttribute('data-category-id', 'DIC_kwDOR7iU584C6M4S');   // TODO: Update
     s.setAttribute('data-mapping', 'pathname');
     s.setAttribute('data-strict', '0');
     s.setAttribute('data-reactions-enabled', '1');

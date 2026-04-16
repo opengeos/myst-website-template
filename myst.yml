@@ -9,6 +9,13 @@ project:
     - Thumbs.db
     - .DS_Store
     - '**.ipynb_checkpoints'
+    - generate_rss.py
+    - inject_comments.py
+    - rss.xml
+    - atom.xml
+    - CONDUCT.md
+    - CONTRIBUTING.md
+    - README.md
   github: opengeos/myst-website-template
   thebe:
     binder:
@@ -30,6 +37,13 @@ project:
     - title: Examples
       children:
         - file: book/part02/first-example.md
+    - file: blog.md
+      children:
+        - file: tags/myst-markdown.md
+        - file: tags/tutorial.md
+        - file: tags/github-pages.md
+    - pattern: posts/*.md
+      hidden: true
 site:
   options:
     logo: logo.png

@@ -24,19 +24,19 @@ project:
       url: https://mybinder.org
       ref: main
   bibliography:
-    - book/references.bib
+    - pages/references.bib
   toc:
     - file: index.md
     - title: Preface
       children:
-        - file: book/preface.md
+        - file: pages/preface.md
     - title: Getting Started
       children:
-        - file: book/part01/getting-started.md
-        - file: book/part01/installation.md
+        - file: pages/part01/getting-started.md
+        - file: pages/part01/installation.md
     - title: Examples
       children:
-        - file: book/part02/first-example.md
+        - file: pages/part02/first-example.md
     - file: blog.md
       children:
         - file: tags/myst-markdown.md

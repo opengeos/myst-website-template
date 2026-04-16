@@ -15,28 +15,28 @@ Welcome to the official repository for _**Website Title**_. This repository cont
 
 :::{card}
 :link: https://mystmd.org
-![mystmd](book/images/myst.webp)
+![mystmd](pages/images/myst.webp)
 +++
 **MyST Markdown**
 :::
 
 :::{card}
 :link: https://jupyterbook.org
-![jupyter-book](book/images/jupyter-book.webp)
+![jupyter-book](pages/images/jupyter-book.webp)
 +++
 **Jupyter Book**
 :::
 
 :::{card}
 :link: https://jupyter.org
-![jupyter](book/images/jupyter.webp)
+![jupyter](pages/images/jupyter.webp)
 +++
 **Jupyter**
 :::
 
 :::{card}
 :link: https://python.org
-![python](book/images/python.webp)
+![python](pages/images/python.webp)
 +++
 **Python**
 :::

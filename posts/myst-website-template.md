@@ -40,8 +40,8 @@ Setting all of this up by hand takes time and introduces opportunities for small
 
 - **MyST Markdown with Jupyter integration** -- Write content in Markdown or Jupyter notebooks. MyST renders both into a polished HTML site with support for directives, roles, cross-references, and executable code cells.
 - **Book theme** -- The built-in [book theme](https://mystmd.org/guide/website-templates) provides a sidebar, table of contents, and search out of the box. No custom templates needed.
-- **Organized content structure** -- Pages live in a `book/` directory organized into logical parts (`part01/`, `part02/`, etc.), making it easy to group related content.
-- **BibTeX bibliography support** -- Add references to `book/references.bib` and cite them directly in your Markdown files.
+- **Organized content structure** -- Pages live in a `pages/` directory organized into logical parts (`part01/`, `part02/`, etc.), making it easy to group related content.
+- **BibTeX bibliography support** -- Add references to `pages/references.bib` and cite them directly in your Markdown files.
 - **Jupytext** -- Round-trip conversion between `.ipynb` and `.md` formats, so notebooks can be version-controlled as plain text.
 - **GitHub Pages deployment** -- The `deploy.yml` workflow builds the HTML site and publishes it to GitHub Pages on every push to `main`.
 - **Netlify PR previews** -- The `build.yml` workflow builds a preview for every pull request, making it easy to review changes before merging.
@@ -53,7 +53,7 @@ Setting all of this up by hand takes time and introduces opportunities for small
 
 1. Go to the [template repository](https://github.com/opengeos/myst-website-template) and click **Use this template** to create a new repository.
 2. Open `myst.yml` and update the project title, author name, GitHub URL, and table of contents to match your content.
-3. Replace the placeholder pages in the `book/` directory with your own Markdown files or Jupyter notebooks.
+3. Replace the placeholder pages in the `pages/` directory with your own Markdown files or Jupyter notebooks.
 4. Push to `main`. GitHub Actions will build the site and deploy it to GitHub Pages automatically.
 
 That is all it takes. PR previews will also work once you connect Netlify and add the `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID` secrets to your repository.

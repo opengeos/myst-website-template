@@ -13,7 +13,7 @@ A reusable template for building websites with [MyST Markdown](https://mystmd.or
 
 1. Click **Use this template** on GitHub to create a new repository
 2. Update `myst.yml` with your site title, author, and table of contents
-3. Replace placeholder content in `book/` with your own pages
+3. Replace placeholder content in `pages/` with your own pages
 4. Push to GitHub to trigger automated builds
 
 ## Project Structure
@@ -27,7 +27,7 @@ A reusable template for building websites with [MyST Markdown](https://mystmd.or
 ├── fav.ico                     # Favicon
 ├── CNAME                       # Custom domain (optional)
 ├── robots.txt                  # Search engine directives
-├── book/                       # Site content
+├── pages/                      # Site content
 │   ├── preface.md
 │   ├── part01/
 │   │   ├── getting-started.md
@@ -57,7 +57,7 @@ Edit `myst.yml`:
 
 ### Adding Pages
 
-1. Create a new `.md` file in the appropriate `book/` subdirectory
+1. Create a new `.md` file in the appropriate `pages/` subdirectory
 2. Add the file to `project.toc` in `myst.yml`
 
 ## Building Locally
